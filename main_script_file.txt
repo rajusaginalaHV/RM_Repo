@@ -42,7 +42,7 @@ pipeline {
             steps {
                 script {
                     // Define the Git repository URL
-                    def gitRepoUrl = 'https://github.com/rajusaginalaHV/MIgration_Repo.git'
+                    def gitRepoUrl = 'https://github.com/rajusaginalaHV/RM_Repo.git'
 
                     // Get the selected release version from the user parameter
                     def selectedRelease = "${params.RELEASE_VERSION}"
